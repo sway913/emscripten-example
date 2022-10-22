@@ -1,0 +1,26 @@
+{
+  "name": "video-extract",
+  "version": "1.0.0",
+  "description": "video-extract-by-ffmpeg",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.woa.com:layxiang/video-to-picture.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "wasm"
+  ],
+  "author": "layxiang",
+  "license": "ISC",
+  "devDependencies": {
+    "@tencent/eslint-config-tencent": "^1.0.4",
+    "eslint": "^8.16.0"
+  }
+}

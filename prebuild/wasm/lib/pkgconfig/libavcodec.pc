@@ -1,0 +1,14 @@
+prefix=/home/ztz/work/github/emscripten-example/ffmpeg/../prebuild/wasm
+exec_prefix=${prefix}
+libdir=/home/ztz/work/github/emscripten-example/ffmpeg/../prebuild/wasm/lib
+includedir=/home/ztz/work/github/emscripten-example/ffmpeg/../prebuild/wasm/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.91.100
+Requires: libavutil >= 56.51.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -lm
+Libs.private: 
+Cflags: -I${includedir}
